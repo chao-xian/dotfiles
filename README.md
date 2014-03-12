@@ -1,4 +1,4 @@
-# My dotfiles based on Mathias’s
+# Chao-Xian's dotfiles based on Mathias’s
 
 ![Screenshot of my shell prompt](https://i.imgur.com/EkEtphC.png)
 
