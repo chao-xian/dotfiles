@@ -1,4 +1,4 @@
-# Chao-Xian's dotfiles based on Mathias’s
+# Chao-Xian's dotfiles based on Mathias’
 
 ## Installation
 
@@ -91,9 +91,11 @@ Suggestions/improvements
 [welcome](https://github.com/mathiasbynens/dotfiles/issues)!
 
 ## Author
-chao-xian
+| [![twitter/chao_xian](http://www.gravatar.com/avatar/6665abb5c75183888e5aa8e98e221280?s=70)](http://twitter.com/chao_xian "Follow @chao_xian on Twitter") |
+|---|
+| Chao Xian 超賢 |
 
-### Original
+### Original author
 | [![twitter/mathias](http://gravatar.com/avatar/24e08a9ea84deb17ae121074d0f17125?s=70)](http://twitter.com/mathias "Follow @mathias on Twitter") |
 |---|
 | [Mathias Bynens](http://mathiasbynens.be/) |
