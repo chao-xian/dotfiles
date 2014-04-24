@@ -30,7 +30,7 @@
   "line_padding_bottom": 6,
   "match_brackets": true,
   "match_brackets_angle": true,
-  "remember_open_files": false,
+  "remember_open_files": true,
   "rulers":
   [
     80
