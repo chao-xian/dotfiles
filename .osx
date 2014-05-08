@@ -111,6 +111,8 @@ defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 
 # Disable Notification Center and remove the menu bar icon
 # launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist 2> /dev/null
+# To re-enable as per https://github.com/mathiasbynens/dotfiles/pull/168
+launchctl load -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist
 
 # Disable smart quotes as they’re annoying when typing code
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
