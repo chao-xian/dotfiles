@@ -61,7 +61,8 @@
     ".git",
     "node_modules"
   ],
-  "font_size": 12.5,
+  "font_size": 14.1,
+  "font_face": "Anonymous Pro",
   "highlight_modified_tabs": true,
   "hot_exit": false,
   "ignored_packages":
