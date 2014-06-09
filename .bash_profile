@@ -48,4 +48,6 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 # To export path for RVM which is set in .profile
 source ~/.profile
 
+source ~/.nvm/nvm.sh
+
 source ~/.bath/bath
