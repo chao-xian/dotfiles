@@ -1,8 +1,0 @@
-# Stuff for Uni of Bath Work
-
-# ENV vars for Stats Report Ruby app
-export FUNNELBACK_USERNAME="webed"
-export FUNNELBACK_PASSWORD="WimbledonSW19webed1"
-export FUNNELBACK_URL="bulgaria.bath.ac.uk"
-
-alias ssh="TERM=xterm ssh" # ssh to SOLARIS doesn't like xterm-256colour. Stupid SOLARIS.
