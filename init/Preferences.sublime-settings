@@ -1,5 +1,6 @@
 {
-  "color_scheme": "Packages/Color Scheme - Default/Blackboard.tmTheme",
+  "theme": "Afterglow-blue.sublime-theme",
+  "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme",
   "copy_with_empty_selection": false,
   "default_encoding": "UTF-8",
   "default_line_ending": "unix",
