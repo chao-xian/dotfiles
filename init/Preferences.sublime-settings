@@ -1,6 +1,7 @@
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
@@ -46,6 +47,10 @@
   "color_inactive_tabs": true,
   "color_scheme": "Packages/User/Afterglow-twilight (SL).tmTheme",
 >>>>>>> 2c2223f... Committing changes to Sublime preferences
+=======
+  "theme": "Afterglow-blue.sublime-theme",
+  "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme",
+>>>>>>> 6e50811... Changed theme to Afterglow Blue
   "copy_with_empty_selection": false,
   "default_encoding": "UTF-8",
   "default_line_ending": "unix",
