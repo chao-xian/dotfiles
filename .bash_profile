@@ -48,6 +48,9 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 # To export path for RVM and Heroku etc which is set in .profile
 source ~/.profile
 
+# API Keys
+source ~/.apikeys
+
 # NVM Path
 # source ~/.nvm/nvm.sh
 
