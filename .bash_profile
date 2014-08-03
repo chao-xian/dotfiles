@@ -66,4 +66,4 @@ source ~/.profile
 # source ~/.nvm/nvm.sh
 
 # Work related
-source ~/.bath/bath
+# source ~/.bath/bath
