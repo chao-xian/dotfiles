@@ -63,7 +63,7 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 source ~/.profile
 
 # NVM Path
-source ~/.nvm/nvm.sh
+# source ~/.nvm/nvm.sh
 
 # Work related
 source ~/.bath/bath
