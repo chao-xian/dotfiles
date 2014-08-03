@@ -59,9 +59,11 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 # Load RVM (ruby version manager)
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
-# To export path for RVM which is set in .profile
+# To export path for RVM and Heroku etc which is set in .profile
 source ~/.profile
 
+# NVM Path
 source ~/.nvm/nvm.sh
 
+# Work related
 source ~/.bath/bath
