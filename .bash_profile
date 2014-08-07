@@ -38,21 +38,3 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 # If possible, add tab completion for many more commands
 [ -f /etc/bash_completion ] && source /etc/bash_completion
 
-######## MY STUFF (KELV) THAT NEEDS TO BE MERGED/MANAGED
-######## DO NOT RUN ANY bootstrap.sh SCRIPTS OTHER THAN YOUR OWN OR THIS WILL BE WIPED!
-######## Copy of this is in ~/dotfiles/mine/dotfiles/.bash_profile
-
-# Load RVM (ruby version manager)
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
-# To export path for RVM and Heroku etc which is set in .profile
-source ~/.profile
-
-# API Keys
-source ~/.apikeys
-
-# NVM Path
-# source ~/.nvm/nvm.sh
-
-# Work related
-# source ~/.bath/bath
