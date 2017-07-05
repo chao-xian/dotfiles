@@ -54,15 +54,18 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 ######## DO NOT RUN ANY bootstrap.sh SCRIPTS OTHER THAN YOUR OWN OR THIS WILL BE WIPED!
 ######## Copy of this is in ~/dotfiles/mine/dotfiles/.bash_profile
 
-# Load RVM (ruby version manager)
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+# RBENV
+eval "$(rbenv init -)"
 
-# To export path for RVM which is set in .profile
-source ~/.profile
+# GO GDS WORKSHOPS
+export GOPATH=$HOME/go/{src,pkg,bin}
 
-source ~/.nvm/nvm.sh
+# GPG
+GPG_TTY=$(tty)
+export GPG_TTY
 
-source ~/.phpbrew/bashrc
+# RUBY on RAILS ALIASES
+alias be='bundle exec'
 
-# source ~/.bath/bath
-
+# TMUXINATOR
+source ~/bin/tmuxinator.bash
