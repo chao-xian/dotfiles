@@ -5,6 +5,49 @@ let g:solarized_termtrans=1
 
 " Make Vim more useful
 set nocompatible
+
+" VUNDLE
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+" My plugins
+" Plugin 'tpope/vim-rails'
+" Plugin 'tpope/vim-rake'
+" Plugin 'tpope/vim-bundler'
+" Plugin 'scrooloose/nerdtree'
+" Plugin 'tpope/vim-projectionist'
+" Plugin 'jlanzarotta/bufexplorer'
+" Plugin 'scrooloose/nerdcommenter'
+" Plugin 'Valloric/YouCompleteMe'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+" show existing tab with 2 spaces width
+set tabstop=2
+" when indenting with '>', use 2 spaces width
+set shiftwidth=2
+" On pressing tab, insert 2 spaces
+set expandtab
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+"
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
+
+
 " Use the OS clipboard by default (on versions compiled with `+clipboard`)
 set clipboard=unnamed
 " Enhance command-line completion
@@ -44,6 +87,8 @@ set secure
 set number
 " Enable syntax highlighting
 syntax on
+" Set Solarised colour scheme
+colorscheme solarized
 " Highlight current line
 set cursorline
 " Make tabs as wide as two spaces
@@ -104,3 +149,9 @@ if has("autocmd")
 	" Treat .md files as Markdown
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
 endif
+
+inoremap jj <ESC>
+
+" autocmd vimenter * NERDTree
+
+
