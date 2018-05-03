@@ -18,3 +18,8 @@ Thumbs.db
 
 # API Keys
 .apikeys
+
+# Editor files
+.idea/
+.tags*
+.vscode/
