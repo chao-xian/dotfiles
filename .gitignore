@@ -19,5 +19,7 @@ Thumbs.db
 # API Keys
 .apikeys
 
-# Jetbrains
-.idea
+# Editor files
+.idea/
+.tags*
+.vscode/
