@@ -146,3 +146,15 @@ alias reload="exec ${SHELL} -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+# govuk-docker
+alias gd="govuk-docker"
+alias gdr="govuk-docker-run"
+alias gdu="govuk-docker-up"
+alias gdbe="govuk-docker-run bundle exec"
+
+# iA Writer
+alias ia="open $1 -a /Applications/iA\ Writer.app"
+
+# RUBY on RAILS ALIASES
+alias be='bundle exec'
